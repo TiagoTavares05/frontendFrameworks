@@ -15,7 +15,7 @@ export class AppComponent {
   apiURL: string;
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://todoappbackend-production-d232.up.railway.app';
+    this.apiURL = 'https://backendframework-production.up.railway.app';
     this.READ_tarefas();
   }
 
